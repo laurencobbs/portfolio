@@ -1,0 +1,392 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'poppins', sans-serif !important;
+}
+
+body {
+    background: black;
+}
+
+.content {
+    min-height: 100vh;
+    width: 100%;  
+    background: black;
+    background-image: url("https://64.media.tumblr.com/tumblr_me9j27MWqg1rf78nfo1_400.gifv");
+    background-position: 80% 53%;
+    background-repeat: no-repeat;
+    background-size: 535px;
+    color: white;
+    image-rendering: auto;
+    image-rendering: crisp-edges;
+}
+
+nav {
+    display: flex;
+    overflow: hidden;
+    justify-content: space-between;
+    position: sticky;
+    width: 100%;
+    top: 0;
+    z-index: 1;
+    background-color: #08fdd8;
+    height: 90px;
+    padding-top: 3px;
+}
+
+.logo {
+    image-rendering: auto;
+    image-rendering: crisp-edges;
+    position: sticky;
+    z-index: 1;
+    height: 30px;
+    left: 25px;
+    top: 30px;
+}
+
+.github {
+    position: absolute;
+    top: 9%;
+    right: 70px;
+    width: 22px;
+    
+}
+
+.linkedin {
+    position: absolute;
+    top: 9%;
+    right: 45px;
+    width: 22px;
+}
+
+.github1 {
+    z-index: 1;
+    position: absolute;
+    bottom: 2%;
+}
+
+nav ul li {
+    display: inline-block;
+    list-style: none;
+    margin: 0px 30px;
+    margin-top: 6%;
+}
+
+nav ul li a {
+    color: black;
+    text-decoration: none;
+    font-family: 'JetBrains Mono' !important;
+}
+
+nav ul li a:hover {
+    color: silver;
+}
+
+
+.content h1 {
+    font-size: 90px;
+    margin-top: 9%;
+    margin-left: 100px;
+}
+
+.btn {
+    color: black;
+    display: inline-block;
+    background: #08fdd8;
+    min-width: 200px;
+    padding: 22px 35px;
+    font-size: 14px;
+    font-weight: bold;
+    cursor: pointer;
+    border: none;
+    line-height: 12px;
+    letter-spacing: 1px;
+    border-radius: 5px;
+    margin-top: 15px;
+    text-transform: uppercase;
+    text-decoration: none;
+    margin-left: 100px;
+    text-align: center;
+}
+
+
+.btn-outline {
+    background: none;
+    color: #08fdd8;
+    border: 1px solid;
+    text-transform: uppercase;
+}
+
+.btn-outline:hover {
+    color: silver;
+}
+.content{
+    position: relative;
+}
+
+.content h3 {
+    font-size: 20px;
+    margin-left: 90px;
+    padding: 13px;
+    font-weight: normal;
+    font-style: normal;
+    color: silver;
+    font-family: 'JetBrains Mono' !important;
+}
+
+.title1 {
+    color: white;
+    background: black;
+    text-align: center;
+    font-size: 65px;
+    margin-top: 3%;
+}
+
+ .card-img-top {
+    border: 1.5px solid;
+    border-color: #08fdd8;
+}
+
+.card-body {
+    background: black;
+    border: 1.5px solid;
+    border-color: #08fdd8;
+}
+
+.card {
+   margin-left: 80px;
+   margin-top: 18%;
+}
+
+.card-title {
+    color: white;
+}
+
+.card-text {
+    font-family: 'JetBrains Mono' !important;
+    color: silver;
+}
+
+.btn-primary {
+    background: black;
+    color: #08fdd8;
+    border: 1px solid;
+    text-transform: uppercase;
+    display: inline-block;
+    text-decoration: none;
+}
+
+ .btn-primary:hover {
+    color: black; 
+    background: silver;
+}
+
+.btn-primary:focus{
+    background: #08fdd8;
+    border-color: inherit;
+    -webkit-box-shadow: none;
+    box-shadow: none;
+}
+
+.contact1 {
+    color: white;
+    background: black;
+    text-align: center;
+    font-size: 65px;
+    margin-top: 10%;
+}
+
+.container {
+    margin-left: auto;
+    margin-right: auto;
+    position: relative;
+    margin-top: 5%;
+    width: 650px;
+    height: 600px;
+    background:#08fdd8;
+    border-radius: 17px;
+    padding: 30px;
+}
+
+
+.input {
+    font-size: 18px;
+    font-weight: normal;
+    display: block;
+    width: 100%;
+    outline: none;
+    border-radius: 10px;
+    background: black;
+    color: white; 
+    margin: 1em 0 2em 0;
+    padding: 1em;
+    font-family: 'JetBrains Mono' !important;
+}
+
+label {
+    display: block;
+    text-align: start;
+    color: black;
+    font-weight: 600;
+    font-size: 30px;
+}
+
+.button {
+    border: none;
+    height: 50px;
+    width: 25%;
+    border-radius: 0.3em;
+    font-size: 25px;
+    font-weight: 500;
+    color: black;
+    background:silver;
+    transition: transform .5s;
+  }
+
+  .button:hover {
+    transform: scale(1.03);
+    cursor: pointer;
+    background-color: white;
+    color: black;
+  }
+
+  .body {
+      position: relative;
+      width: 50%;
+      margin-left: auto;
+      margin-right: auto;
+      margin-top: 2%;
+      color: silver;
+      font-size: 18px;
+      
+      
+  }
+
+  .about1 {
+    color: white;
+    background: black;
+    text-align: center;
+    font-size: 65px;
+    margin-top: 12%;
+  }
+
+  p {
+      font-family: 'JetBrains Mono' !important;
+      text-align: left;
+     
+}
+
+  .title2{
+      color: white;
+      text-align: center;
+      margin-top: 2%;
+}
+
+.languages {
+    white-space: nowrap;
+    text-align: center;
+    margin-top: 2%;
+}
+
+.custom-shape-divider-bottom-1633377956 {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    overflow: hidden;
+    line-height: 0;
+    transform: rotate(180deg);
+}
+
+.custom-shape-divider-bottom-1633377956 svg {
+    position: relative;
+    display: block;
+    width: calc(100% + 1.3px);
+    height: 140px;
+}
+
+.custom-shape-divider-bottom-1633377956 .shape-fill {
+    fill: silver;
+}
+
+.custom-shape-divider-bottom-1633381783 {
+    position: absolute;
+    margin-top: 1%;
+    left: 0;
+    width: 100%;
+    overflow: hidden;
+    line-height: 0;
+    transform: rotate(180deg);
+}
+
+.custom-shape-divider-bottom-1633381783 svg {
+    position: relative;
+    display: block;
+    width: calc(100% + 1.3px);
+    height: 140px;
+    transform: rotateY(180deg);
+}
+
+.custom-shape-divider-bottom-1633381783 .shape-fill {
+    fill: #08fdd8;
+}
+
+.custom-shape-divider-bottom-1633383138 {
+    position: absolute;
+    margin-bottom: 20%;
+    left: 0;
+    width: 100%;
+    overflow: hidden;
+    line-height: 0;
+    transform: rotate(180deg);
+}
+
+.custom-shape-divider-bottom-1633383138 svg {
+    position: relative;
+    display: block;
+    width: calc(100% + 1.3px);
+    height: 140px;
+}
+
+.custom-shape-divider-bottom-1633383138 .shape-fill {
+    fill: silver;
+}
+
+footer {
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    margin-top: 15%;
+    color: silver;
+    z-index: 1;
+    
+}
+
+.footerlogo {
+    height: 20px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
