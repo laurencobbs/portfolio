@@ -368,13 +368,6 @@ footer {
     height: 20px;
 }
 
-@media only screen and (max-width: 900px) {
-    nav ul li {
-        width: 100%;
-       
-    }
-}
-
 
 
 
