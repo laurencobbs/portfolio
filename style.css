@@ -394,6 +394,7 @@ nav ul li{
 
 nav ul li a{
     color: black;
+    font-family: 'JetBrains Mono' !important;
 }
 
 .menu-icon{
@@ -427,6 +428,7 @@ nav ul li a{
 .content h3 {
     margin-left: 20px;
     font-size: 16px;
+    font-family: 'JetBrains Mono' !important;
 }
 
 .container{
@@ -462,6 +464,7 @@ label {
     font-size: 12px;
     justify-content: center;
     align-items: center;
+    font-family: 'JetBrains Mono' !important;
 }
 
 .col{
@@ -487,6 +490,14 @@ label {
     flex: 1;
     margin-left: auto;
     margin-right: auto;
+}
+
+.card-text{
+    font-family: 'JetBrains Mono' !important;
+}
+
+.input{
+    font-family: 'JetBrains Mono' !important;
 }
 
 .github1{
