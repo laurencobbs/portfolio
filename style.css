@@ -180,6 +180,7 @@ nav ul li a:hover {
  .btn-primary:hover {
     color: black; 
     background: silver;
+    border: none;
 }
 
 .btn-primary:focus{
