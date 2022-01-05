@@ -404,9 +404,15 @@ nav ul li a{
 .menu-icon{
     display: flex;
     float: right;
-    margin: 30px;
+    margin-right: -50px;
     width: 48px;
           
+}
+
+.logo{
+    display: flex;
+    float: left;
+    margin-left: 30px;
 }
 
 #menuList{
