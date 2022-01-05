@@ -31,11 +31,13 @@ navbar {
 nav{
     flex: 1;
     text-align: right;
+    margin-right: 100px;
 }
 
 .logo {
     width: 30px;
     margin: 30px;
+    margin-left: 100px;
 }
 
 .menu-icon{
@@ -154,9 +156,10 @@ nav ul li a:hover {
 }
 
 .card {
-   margin-left: 80px;
+   margin-left: auto;
    margin-top: 18%;
    height: 85%;
+   margin-right: auto;
 }
 
 .card-title {
